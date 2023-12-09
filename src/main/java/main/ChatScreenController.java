@@ -17,25 +17,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class ChatScreenController {
     @FXML
-    private Label userNameLabel;
-    @FXML
-    private Label statusLabel;
-    @FXML
-    private Button audioCallBtn;
-    @FXML
-    private Button videoCallBtn;
-    @FXML
     private ListView<Message> chatList;
     @FXML
-    private Button imgUploadBtn;
-    @FXML
     private TextArea inputTextArea;
-    @FXML
-    private Button sendBtn;
-    @FXML
-    private Button voiceChatBtn;
 
-    private int secondsElapsed;
     private Timeline timeline;
 
     public void executeSend() {
@@ -83,10 +68,6 @@ public class ChatScreenController {
     }
 
     public void executeVideoCall() {
-        showFunctionInDevelopmentAlert();
-    }
-
-    public void executeImgUpload() {
         showFunctionInDevelopmentAlert();
     }
 

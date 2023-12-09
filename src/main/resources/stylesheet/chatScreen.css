@@ -34,21 +34,13 @@
     -fx-image: url(../media/phone.png);
 }
 
-
 #videoCallIMG {
     -fx-image: url(../media/video-camera.png);
 }
 
-
-#imgUploadIMG {
-    -fx-image: url(../media/video-camera.png);
-}
-
-
 #sendIMG {
     -fx-image: url(../media/right-arrow.png);
 }
-
 
 #voiceChatIMG {
     -fx-image: url(../media/audio.png);
